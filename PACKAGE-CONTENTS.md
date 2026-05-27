@@ -1,0 +1,35 @@
+# Package Contents
+
+```text
+ai-prompt-versioning-kit/
+  src/
+    index.ts
+    cli.ts
+  tests/
+    prompt-versioning.test.ts
+  examples/
+    basic-demo.ts
+    failure-demo.ts
+    rollback-demo.ts
+    nextjs-route-reference.ts
+  docs/
+    quickstart.md
+    versioning-workflow.md
+    failure-modes.md
+    production-checklist.md
+    framework-notes.md
+  sales/
+    gumroad-product-page.md
+    launch-posts.md
+    pricing-note.md
+  README.md
+  LICENSE.md
+  REFUND-POLICY.md
+  BUYER-CHECKLIST.md
+  PACKAGE-CONTENTS.md
+  CHANGELOG.md
+  package.json
+  tsconfig.json
+  tsconfig.build.json
+  vitest.config.ts
+```

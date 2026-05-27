@@ -1,0 +1,45 @@
+{
+  "name": "ai-prompt-versioning-kit",
+  "version": "0.1.0",
+  "description": "Free TypeScript starter kit for local AI prompt versioning, variable validation, diffing, rollback, and prompt snapshots.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "scripts": {
+    "dev": "tsx examples/basic-demo.ts",
+    "demo:failure": "tsx examples/failure-demo.ts",
+    "demo:rollback": "tsx examples/rollback-demo.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "ai",
+    "prompt-management",
+    "prompt-versioning",
+    "typescript",
+    "llm",
+    "prompt-template",
+    "indie-hacker"
+  ],
+  "author": "ArchiNode",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.4"
+  }
+}
