@@ -87,7 +87,7 @@ Because the product price is USD 0, there is no paid purchase amount to refund.
 The files are provided as-is without warranty.
 
 Free public repo:
-You can review the public source before downloading:
+You can review the public source before downloading it here.
 GITHUB_URL
 
 Use it as a clean starting point for local prompt versioning, then adapt it to your own AI app.
